@@ -1,20 +1,18 @@
 
-title: Your awesome title
-email: your-email@example.com
+title: Renan Title
+email: phuannguyenhoang@protonmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+    Share thing I learnt. Hope that things I shared can make your life easier.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+url: "https://renan-tp.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+# twitter_username: jekyllrb
+github_username:  renantp
 
 # Build settings
 # theme: minima
 plugins:
   - jekyll-feed
-
+  - bootstrap
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -36,6 +34,5 @@ plugins:
 #   - vendor/ruby/
 sass:
     sass_dir: _sass
-    load_path: 
-      - C:\Ruby31-x64\lib\ruby\gems\3.1.0\gems\bootstrap-5.1.3\assets\stylesheets\
+    # load_path: []
     sourcemap: always
